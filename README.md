@@ -11,5 +11,5 @@ Looking out to getting contributed with some good quality codes.
 Hack it!!!
 
 
-[Check out the Guidelines](http://www.gnu.org/licenses/gpl-3.0.en.html)  
+[Check out the Guidelines](https://github.com/akkupy/Code_Dump/blob/main/CONTRIBUTING.md)  
   
