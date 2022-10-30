@@ -7,8 +7,8 @@
 <div align="center">
   
 This is a repo created specially for Hacktoberfest 2022 Contribution.
-Looking out to getting contributed with some good quality codes.
-Hack it!!!
+Looking out to contribute with some good quality codes
+Go for it!!!
 
 
 [Check out the Guidelines](https://github.com/akkupy/Code_Dump/blob/main/CONTRIBUTING.md)  
