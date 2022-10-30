@@ -10,7 +10,8 @@ int main()
     scanf("%f",&val);
  
     fVal=floor(val);
-    cVal =ceil(val);
-    printf("floor value:%f \nceil value:%f\n",fVal,cVal);
+    cVal=ceil(val);
+    printf("floor value:%f \n",fVal)
+    printf("ceil value:%f \n",cVal);
     return 0;
 }
