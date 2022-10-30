@@ -12,4 +12,7 @@ Hack it!!!
 
 
 [Check out the Guidelines](https://github.com/akkupy/Code_Dump/blob/main/CONTRIBUTING.md)  
+
+
+Feel Free to edit this README to make it more attractive and informative!
   
