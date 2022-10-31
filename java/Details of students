@@ -1,0 +1,128 @@
+import java.util.*;
+
+class student
+
+{
+
+    public static void main(String args[])
+
+    {
+
+        int rollno,phone,age,cgpa;
+
+        char name;
+
+        void read(student s)
+
+        {
+
+            Scanner in=new Scanner (System.in);
+
+            System.out.println("name");
+
+            this.name=in.nextLine();
+
+            System.out.println("Roll no");
+
+            this.rollno=in.nextInt();
+
+            
+
+            System.out.prinln("age");
+
+            this.age=in.nextInt();
+
+            System.out.prinln("Phone no");
+
+            this.phoneno=in.nextLong;
+
+            System.out.println("cgpa");
+
+            this.cgpa=in.nextFloat();
+
+            System.out.prinln("               ");
+
+            
+
+            
+
+            
+
+        }
+
+        student()
+
+        {
+
+            read(this);
+
+        }
+
+    }
+
+    public class main
+
+    {
+
+        public static void main(String args[])
+
+        {
+
+            int l=0,i,n=0,a=0,o=50;
+
+            float r=0;
+
+            student[] s=new student[10];
+
+            for(i=0;i<10;i++)
+
+            {
+
+                s[i]=new student();
+
+                
+
+            }
+
+            for(i=0;i<10;i++)
+
+            {
+
+                if s[i].cgpa>r
+
+                {
+
+                    r=s[i].cgpa;
+
+                    l=i;
+
+                }
+
+                if ((s[i].name.compareTo("ANU"))==0
+
+                {
+
+                    n=i
+
+                }
+
+                if (s[i].age<o)
+
+                {
+
+                    o=s[i].age;
+
+                    a=i;
+
+                }
+
+            }
+
+            System.out.println("Student with highest cgpa"+s[l].name);
+
+            System.out.println("phone number of anu"+s[n].phone no);
+
+            System.out.println("Roll no of youngest "+s[a].rollno);
+
+            
+
