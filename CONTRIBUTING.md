@@ -16,4 +16,4 @@
 
 ## This is a repo for anyone who is signed up for Hacktoberfest
 
-- 4 pull requests must be made to qualify .
+- 4 pull requests must be made to qualify.
