@@ -1,1 +1,1 @@
-# USe this folder for web based pull requests.
+# Use this folder for web based pull requests.
