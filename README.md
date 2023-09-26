@@ -5,7 +5,7 @@
 <div align="center">
  
   
-This is a repo created specially for Hacktoberfest 2022 Contribution.
+This is a repo created specially for Hacktoberfest 2023 Contribution.
 Looking out to contribute with some good quality codes
 Go for it!!!
 
