@@ -18,7 +18,7 @@
 
 ## How to Contribute
 
-If you want to contribute to this repository, please read the [contributing guidelines](https://github.com/akkupy/Code_Dump/blob/main/contributing.md) first. You can add your own code files, edit existing ones, or suggest new features or improvements.
+If you want to contribute to this repository, please read the [contributing guidelines](https://github.com/akkupy/Code_Dump/blob/main/CONTRIBUTING.md) first. You can add your own code files, edit existing ones, or suggest new features or improvements.
 
 ## Contents
 
