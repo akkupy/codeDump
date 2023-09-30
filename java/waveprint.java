@@ -1,57 +1,64 @@
-import java.awt.*;
-import javax.swing.*;
+import java.io.*;
 
-public class WavePrint extends JPanel 
-{
-	int SCALEFACTOR = 200;
-	int cycles;
-	int points;
-	double[] sines;
-	int[] pts;
+class waveprint {
 
-	public  void setCycles(int cycles) 
+	// Function definition
+	static void pattern(int wave_height,
+						int wave_length)
 	{
-		this.cycles = cycles;
-		this.points = SCALEFACTOR * cycles * 2;
-		this.sines = new double[points];
-		for (int i = 0; i < points; i++) 
+		int i, j, k, e, n, count, x;
+		e = 2;
+		x = 1;
+
+		// for loop for height
+		// of wave
+		for (i = 0; i < wave_height; i++)
 		{
-			double radians = (Math.PI / SCALEFACTOR) * i;
-			this.sines[i] = Math.sin(radians);
+			for (j = wave_height; j <= wave_height + i; j++)
+				System.out.print(" ");
+
+			// for loop for wave
+			// length
+			for (count = 1; count <= wave_length; count++)
+			{
+				// checking for intermediate
+				// spaces
+				for (n = (wave_height + wave_height - 2); n >= x; n--)
+					System.out.print(" ");
+			
+				for (k = 1; k <= e; k++)
+				{
+					if (k == 1)
+						System.out.print("/");
+					else if (k == e)
+						System.out.print("\\");
+					else
+						System.out.print(" ");
+				}
+			}
+
+			// incrementing counters
+			// value by two
+			x = x + 2;
+			e = e + 2;
+			
+			System.out.println();
 		}
 	}
 
-	public void paintComponent(Graphics g) 
+	// Driver code
+	public static void main(String args[])
 	{
-		int maxWidth = getWidth();
-		double hstep = (double) maxWidth / (double) points;
-		int maxHeight = getHeight();
-		pts = new int[points];
-		for (int i = 0; i < points; i++)
-		{
-			pts[i] = (int) (sines[i] * maxHeight / 2 * .75 + maxHeight / 2);
-		}
-		g.setColor(Color.BLACK);
-		for (int i = 1; i < points; i++) 
-		{
-			int x1 = (int) ((i - 1) * hstep);
-			int x2 = (int) (i * hstep);
-			int y1 = pts[i - 1];
-			int y2 = pts[i];
-			g.drawLine(x1, y1, x2, y2);
-		}
-	}
+		// change value to decrease or
+		// increase the height of wave
+		int wave_height = 4;
 
-	public static void main(String[] args) 
-	{
-		JFrame frame = new JFrame("Wave Pattern");
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.setBackground(Color.green);
-		frame.setSize(250, 250);
+		// change value to decrease or
+		// increase the length of wave
+		int wave_length = 4;
 
-		WavePrint sw = new WavePrint();
-		sw.setCycles(5);
-		frame.add(sw);
-		frame.setVisible(true);
+		pattern(wave_height, wave_length);
 	}
 }
+
+// This code is contributed by Nikita Tiwari.
