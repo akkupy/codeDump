@@ -1,4 +1,5 @@
-# python program for implementation of stack using list
+# menu driven python program for implementation of stack using list
+# program contains push,pop,display,peek functions
 class Node:
     def __init__(self, data):
         self.data = data
