@@ -27,11 +27,15 @@ class Number extends Thread{
         for(int i =0; i<10; i++){
             int randomInteger = random.nextInt(100);
             System.out.println("Random Integer generated : " + randomInteger);
-            Square s = new Square(randomInteger);
-            s.start();
-            Cube c = new Cube(randomInteger);
-            c.start();
-            
+            if(randomInteger % 2 == 0){
+                Square s = new Square(randomInteger);
+                s.start();
+            }
+            else{
+                Cube c = new Cube(randomInteger);
+                c.start();
+            }
+
             try {
                 Thread.sleep(1000);
             // This thread generates random number 10 times
