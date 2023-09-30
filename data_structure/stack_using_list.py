@@ -1,3 +1,4 @@
+# python program for implementation of stack using list
 class Node:
     def __init__(self, data):
         self.data = data
