@@ -42,7 +42,7 @@ This repository contains the following folders and files:
 | **readme.md** | Introduction and overview of this repository |
 
 <!--
-- **C** : This folder contains code snippets and projects written in C language. Topics covered include arrays, pointers, structures, files, etc.
+- **C**: This folder contains code snippets and projects written in C language. Topics covered include arrays, pointers, structures, files, etc.
 - **C++**: This folder contains code snippets and projects written in C++ language. Topics covered include classes, inheritance, polymorphism, templates, STL, etc.
 - **Java**: This folder contains code snippets and projects written in Java language. Topics covered include OOP, exceptions, collections, threads, etc.
 - **Python**: This folder contains code snippets and projects written in Python language. Topics covered include data structures, algorithms, modules, web scraping, etc.
@@ -57,7 +57,7 @@ Hacktoberfest is an annual event that encourages people to contribute to open so
 
 If you're new to open source or just looking for a way to get involved, Hacktoberfest is a great opportunity to do so. Here are some ways you can contribute:
 
-- Find an open source project that you're interested in and see if they have any issues labeled "Hacktoberfest." If so, start working on those!
+- Find an open source project that you're interested in and see if they have any issues labelled "Hacktoberfest." If so, start working on those!
 
 - If you can't find any Hacktoberfest issues, try looking for other issues that you can help with.
 
