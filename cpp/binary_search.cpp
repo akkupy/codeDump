@@ -1,35 +1,37 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+
 using namespace std;
 
-
-// Binary search function
-int binary_search(const vector<int>& arr, int tar) {
+int binarySearch(const vector<int>& arr, int target) {
     int left = 0;
     int right = arr.size() - 1;
 
     while (left <= right) {
         int mid = left + (right - left) / 2;
-        if (arr[mid] == tar) {
-            return mid;
-        } else if (arr[mid] < tar) {
-            left = mid + 1;
+
+        if (arr[mid] == target) {
+            return mid; // Target found, return its index
+        } else if (arr[mid] < target) {
+            left = mid + 1; // Adjust the left boundary
         } else {
-            right = mid - 1;
+            right = mid - 1; // Adjust the right boundary
         }
     }
-    return -1; // Element not found
+
+    return -1; // Target not found in the array
 }
 
 int main() {
     vector<int> arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-    int tar = 5;
+    int target = 5;
 
-    int result = binary_search(arr, tar);
+    int result = binarySearch(arr, target);
 
     if (result != -1) {
-        cout << "Element " << tar << " found at index " << result << endl;
+        cout << "Element found at index " << result << endl;
     } else {
-        cout << "Element " << tar << " not found in the given array." << endl;
+        cout << "Element not found in the array" << endl;
     }
 
     return 0;
