@@ -1,18 +1,17 @@
 # Lople E-commerce Site
 
-![Website Screenshot](screenshot.png) <!-- Add a screenshot of your website here -->
+![Website Screenshot](./screenshot.png) 
 
 ## Table of Contents
 
 1. [Introduction](#introduction)
 2. [Features](#features)
 3. [Demo](#demo)
-4. [Usage](#usage)
-5. [Technologies Used](#technologies-used)
+4. [Technologies Used](#technologies-used)
 
 ## Introduction
 
-Welcome to Lople! This eCommerce website is designed to provide users with a seamless online shopping experience. It features a wide range of products, an easy-to-navigate interface, and secure payment options.
+Welcome to Lople! This eCommerce website is designed to provide users with a seamless online shopping experience. It features a wide range of products and an easy-to-navigate interface.
 
 ## Features
 
@@ -26,14 +25,6 @@ Welcome to Lople! This eCommerce website is designed to provide users with a sea
 ## Demo
 
 You can access a live demo of Lople by visiting [Demo Link](https://khushi-2002.github.io/Ecommerce-site/).
-
-## Usage
-
-- Start by browsing the product catalog and adding items to your shopping cart.
-- Login or create an account to proceed to the checkout process.
-- Enter your shipping and payment information.
-- Review your order and confirm the purchase.
-- Explore other features such as order history and profile management.
 
 ## Technologies Used
 
