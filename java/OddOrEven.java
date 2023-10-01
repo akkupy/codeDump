@@ -1,10 +1,12 @@
 
-
+import java.util.*;
 public class Main
  {
       public static void main(String[] args) {
-           int number = 29;
-
+       //Taking input from the user
+       Scanner sc =new Scanner(System.in);
+       System.out.println("Enter the number");
+       int number=sc.nextInt();
 
      //checking whether the number is even or odd
      if (number % 2 == 0)
