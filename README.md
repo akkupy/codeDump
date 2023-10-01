@@ -5,7 +5,7 @@
 </h1>
 
 <div align="center">
-  <h2>🎃 Code in any language u prefer! 🎃</h2>
+  <h2>Don't forget to leave a star ⭐️</h2>
 
   ![Hacktoberfest 2023](https://img.shields.io/badge/Hacktoberfest-2023-orange)
   ![GitHub issues](https://img.shields.io/github/issues/akkupy/Code_Dump)
