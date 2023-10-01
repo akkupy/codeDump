@@ -1,6 +1,4 @@
-# Lople E-commerce Site
-
-![Website Screenshot](./screenshot.png) 
+# Cara E-commerce Site
 
 ## Table of Contents
 
@@ -11,7 +9,7 @@
 
 ## Introduction
 
-Welcome to Lople! This eCommerce website is designed to provide users with a seamless online shopping experience. It features a wide range of products and an easy-to-navigate interface.
+Welcome to Cara! This eCommerce website is designed to provide users with a seamless online shopping experience. It features a wide range of products and an easy-to-navigate interface.
 
 ## Features
 
@@ -24,7 +22,7 @@ Welcome to Lople! This eCommerce website is designed to provide users with a sea
 
 ## Demo
 
-You can access a live demo of Lople by visiting [Demo Link](https://khushi-2002.github.io/Ecommerce-site/).
+You can access a live demo of Cara by visiting [Demo Link](https://khushi-2002.github.io/Ecommerce-site/).
 
 ## Technologies Used
 
@@ -33,6 +31,6 @@ You can access a live demo of Lople by visiting [Demo Link](https://khushi-2002.
 - JavaScript (ES6+)
 ---
 
-Thank you for visiting Lople! If you have any questions or encounter any issues, please don't hesitate to contact us.
+Thank you for visiting Cara! If you have any questions or encounter any issues, please don't hesitate to contact us.
 
 Happy coding with us!
