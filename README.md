@@ -53,7 +53,7 @@ This repository contains the following folders and files:
 | **[Swift](swift)** | Template to print in Swift |
 | **[Web Development](web)** | HTML, CSS, JavaScript, Bootstrap, jQuery, etc. |
 | **[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)** | Guidelines for contributors to be followed while contributing |
-| **[Contributing.md](contributing.md)** | Guidelines for contributing to this repository |
+| **[Contributing.md](CONTRIBUTING.md)** | Guidelines for contributing to this repository |
 | **[Readme.md](README.md)** | Introduction and overview of this repository |
 
 <!--
