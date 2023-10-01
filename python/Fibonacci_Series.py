@@ -1,26 +1,18 @@
-def FibonacciSeriesByTerms():
-    nums = int(input("Enter number of terms: "))
-    a,b,c = 0,1,0
-    for i in range(nums):
-        c = b
-        b = a+b
-        a = c
-        print(a)
+def f(n):
+  if n in F:
+    return F[n]
+  k = n // 2
+  if n % 2 == 0:  # n=2*k
+    F[n] = (f(k) * f(k) + f(k - 1) * f(k - 1)) % M
+  else:  # n=2*k+1
+    F[n] = (f(k) * f(k + 1) + f(k - 1) * f(k)) % M
+  return F[n]
 
-def FibonacciSeriesByMaxValue():
-    nums = int(input("Enter the max value: "))
-    a,b = 0, 1
-    while(b<=nums):
-        c = b
-        b += a
-        a = c
-        print(a)
+F = {0: 1, 1: 1}
+M = 1000000007
 
-print("\n","-"*20,"Fibonacci Series","-"*20)
-print("\n1.By no. of terms\n2.By max value")
-a = int(input("\nEnter your choice[1 or 2]: "))
-
-if(a == 1):
-    FibonacciSeriesByTerms()
-else:
-    FibonacciSeriesByMaxValue() if(a == 2) else print("\nInvalid Input")
+while True:
+  n = int(input("enter the number "))
+  if n == 0:
+    break
+  print(f(n - 1))
