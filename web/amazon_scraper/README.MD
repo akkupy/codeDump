@@ -1,4 +1,4 @@
-### Amazon Review Scraper
+## Amazon Review Scraper
 # Overview
 This is a Python script for scraping Amazon product reviews. It combines two scripts - one for downloading Amazon review pages and another for parsing those downloaded HTML pages to extract review information.
 
@@ -10,13 +10,7 @@ This is a Python script for scraping Amazon product reviews. It combines two scr
 # Prerequisites
 - Python 3.x (Python 2.x is also supported with minor modifications)
 - Required Python packages (install using pip install package_name):
-> argparse
-> codecs
-> csv
-> fnmatch
-> re
-> urllib (for Python 2.x)
-> urllib.request (for Python 3.x)
+ argparse, codecs, csv, fnmatch, re, urllib (for Python 2.x), urllib.request (for Python 3.x)
 
 # Usage
 1 Clone or download the repository to your local machine.
