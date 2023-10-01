@@ -7,10 +7,7 @@ def reverseString(self, s):
         final = len(s)-1
         
         while begin < final:
-            temp = s[begin]
-            s[begin] = s[final]
-            s[final] = temp
-            
+            s[begin],s[final]=s[final],s[begin]
             begin += 1
             final -= 1
         
