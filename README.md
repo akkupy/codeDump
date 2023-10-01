@@ -33,13 +33,28 @@ This repository contains the following folders and files:
 
 | Programming Language | Topics Covered |
 |----------------------|----------------|
-| **C** | Arrays, Pointers, Structures, Files, etc. |
-| **C++** | Classes, Inheritance, Polymorphism, Templates, STL, etc. |
-| **Java** | OOP, Exceptions, Collections, Threads, etc. |
-| **Python** | Data Structures, Algorithms, Modules, Web Scraping, etc. |
-| **Web Development** | HTML, CSS, JavaScript, Bootstrap, jQuery, etc. |
-| **contributing.md** | Guidelines for contributing to this repository |
-| **readme.md** | Introduction and overview of this repository |
+| **[C](c)** | Addition, Bankers, Caesar_cipher, Postfix, etc. |
+| **[C#](c#)** | Template to print in C# |
+| **[C++](cpp)** | Most_Useful_Algorithms of Array , Trees, Heap, Graph etc. |
+| **[Dart](dart)** | String, keyboard_input, Constans etc. |
+| **[Data_structure](data_structure)** | LinkedList, Trees using java, Queue etc. |
+| **[Go](go)** | Template to print in Go |
+| **[HackerRank-Solutions](HackerRank-Solutions)** | Solutions in JavaScript, python . |
+| **[Java](java)** | CyclicSort, OOPs Fundamental, MultiThreading etc. |
+| **[Javascript](javascript)** | Countdown Timer, Color Flipper, To-Do-List etc. |
+| **[JupyterNotebook](jupyterNotebook)** | Sentiment Analysis |
+| **[Kotlin](kotlin)** | Template to print in Kotlin |
+| **[LeetCodeQuestions](LeetCodeQuestions)** | Consits of Important Leetcode Questions  |
+| **[OOPS](OOPS)** | Constructor , Destructors , Standart Template , Pointers etc.|
+| **[Python](python)** | Data Structures, Algorithms, Modules, Web Scraping, etc. |
+| **[Ruby](ruby)** | Data Structures, Algorithms, Modules, Web Scraping, etc. |
+| **[Rust](rust)** | Template to print in Rust |
+| **[Static-portfolio-templates](static-portfolio-templates)** | Web Templates  |
+| **[Swift](swift)** | Template to print in Swift |
+| **[Web Development](web)** | HTML, CSS, JavaScript, Bootstrap, jQuery, etc. |
+| **[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)** | Guidelines for contributors to be followed while contributing |
+| **[Contributing.md](contributing.md)** | Guidelines for contributing to this repository |
+| **[Readme.md](README.md)** | Introduction and overview of this repository |
 
 <!--
 - **C**: This folder contains code snippets and projects written in C language. Topics covered include arrays, pointers, structures, files, etc.
