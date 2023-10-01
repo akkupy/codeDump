@@ -1,4 +1,4 @@
-# [Lople E-commerce Site]
+# Lople E-commerce Site
 
 ![Website Screenshot](screenshot.png) <!-- Add a screenshot of your website here -->
 
