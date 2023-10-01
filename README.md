@@ -69,7 +69,15 @@ If you're new to open source or just looking for a way to get involved, Hacktobe
 This repository is licensed under the MIT License. See the [LICENSE](https://github.com/akkupy/Code_Dump/blob/main/LICENSE) file for more details.
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/akkupy/Code_Dump/blob/main/LICENSE)
 
-<br>
-<div align="center">
-  <h3>Let's code, learn, and grow together! 💻🌱</h3>
-</div>
+## Support🙏
+
+Don't forget to leave a star ⭐️
+
+
+## Thank You to Our Contributors❤️
+<details>
+<Link href="https://github.com/akkupy/Code_Dump/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=akkupy/Code_Dump" />
+<Link/>
+</details>
+
