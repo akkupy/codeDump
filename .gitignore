@@ -1,5 +1,9 @@
+# Ignore operating system and editor generated files
+*.swp
+.DS_Store
+Thumbs.db
 
-# For c
+# Ignore compiled binaries and libraries
 *.exe
 *.out
 *.app
@@ -8,26 +12,104 @@
 *.obj
 *.elf
 
+# Ignore package manager directories and files
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+pipenv.lock
+pipfile.lock
 
-
-# For python 
-# Environments
-.env
-.venv
-env/
+# Ignore virtual environment directories
 venv/
+env/
+.venv
 ENV/
 env.bak/
 venv.bak/
 
+# Ignore log files and temporary files
+*.log
+*.tmp
+*.temp
 
-# For VSC
-.vscode/*
+# Ignore database files
+*.sqlite
+*.db
+
+# Ignore backup files
+*~
+
+# Ignore configuration files with secrets
+*.env
+*.env.local
+.envrc
+.secret
+
+# Ignore generated documentation
+docs/
+
+# Ignore IDE and editor specific files and directories
+.idea/
+.vscode/
 .history/
+*.sublime-project
+*.sublime-workspace
 *.code-workspace
 
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
 
-# For java
+# Ignore build and compiled files for specific languages or frameworks
+# C/C++
+*.out
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+__pycache__/
+
+# Dart
+.dart_tool/
+.packages
+.pub/
+
+# Kotlin
+.idea/
+*.iml
+build/
+out/
+.gradle/
+local.properties
+
+# Rust
+target/
+
+# Swift
+.DS_Store
+xcuserdata/
+*.xcworkspace/
+*.xcodeproj/
+
+# PHP
+vendor/
+composer.lock
+.phpunit.result.cache
+
+# Ruby
+*.gem
+/.bundle/
+Gemfile.lock
+/.config/
+
+# Go
+/bin/
+/pkg/
+/vendor/
+
+# Java
 *.class
 
 # Log file
