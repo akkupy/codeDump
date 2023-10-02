@@ -10,7 +10,6 @@
     
   <h2>Don't forget to leave a star ⭐️</h2>
 
-  ![Hacktoberfest 2023](https://img.shields.io/badge/Hacktoberfest-2023-orange)
   ![GitHub issues](https://img.shields.io/github/issues/akkupy/Code_Dump)
   ![GitHub forks](https://img.shields.io/github/forks/akkupy/Code_Dump)
   ![GitHub stars](https://img.shields.io/github/stars/akkupy/Code_Dump)
