@@ -64,8 +64,8 @@ This repository contains the following folders and files:
 
 ## License 🪪
 
-This repository is licensed under the MIT License. See the [LICENSE](https://github.com/akkupy/Code_Dump/blob/main/LICENSE) file for more details.
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/akkupy/Code_Dump/blob/main/LICENSE)
+This repository is licensed under the  GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007. See the [LICENSE](https://github.com/akkupy/Code_Dump/blob/main/LICENSE) file for more details.
+[![License: GNU GPL 3](https://img.shields.io/github/license/akkupy/codeDump)](https://github.com/akkupy/Code_Dump/blob/main/LICENSE)
 
 ## Support🙏
 
