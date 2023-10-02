@@ -6,9 +6,9 @@
 
 <div align="center">
   
-  <h2>Note that this repo no longer accepts hacktoberfest2023 , But you can surely contribute to open source projects here and be a contributor !
+  <h2>Note that this repo no longer accepts hacktoberfest2023 , But you can surely contribute to open source projects here and be a contributor !</h2>
 
-If u wish to contribute for hacktoberfest2023 , You can use this repo [here](https://github.com/tenzopy/codeIt)</h2>
+  If u wish to contribute for hacktoberfest2023 , You can use this repo [here](https://github.com/tenzopy/codeIt) 
     
   <h2>Don't forget to leave a star ⭐️</h2>
 
