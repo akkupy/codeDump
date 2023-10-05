@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <title>Button</title>
+  </head>
+  <style>
+    body {
+      background-color: #000000;
+      padding: 0%;
+      margin: 0%;
+      height: 100vh;
+      width: 100vw;
+    }
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+    .button {
+      background-color: rgba(240, 248, 255, 0.575);
+      width: 20vw;
+      height: 15vh;
+      font-size: 3vh;
+      border-radius: 100vh;
+      border: none;
+      font-family: "Young Serif", serif;
+      -webkit-animation: breathing 5s ease-out infinite normal;
+      animation: breathing 5s ease-out infinite normal;
+    }
+
+    .button:hover {
+      color: #fcfcfc;
+      background: #30b70e;
+      box-shadow: 0 0 10px #39da11, 0 0 40px #39da11, 0 0 80px #39da11;
+      cursor: grab;
+    }
+
+    @-webkit-keyframes breathing {
+      0% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+      }
+
+      25% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
+
+      60% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+      }
+
+      100% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+      }
+    }
+
+    @keyframes breathing {
+      0% {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+      }
+
+      25% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+      }
+
+      60% {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+      }
+
+      100% {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+      }
+    }
+  </style>
+  <body>
+    <div class="center">
+      <a href="https://hacktoberfest.com/"
+        ><button class="button">Hacktober Fest 2023</button>
+      </a>
+    </div>
+  </body>
+</html>
