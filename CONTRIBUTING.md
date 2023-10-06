@@ -12,7 +12,7 @@
 
 - Contribute standard codes
 - Look upon the Folders given
-- Plagarism is depreciated
+- Plagiarism is depreciated
 
 ## This is a repo for anyone who is signed up for Hacktoberfest
 

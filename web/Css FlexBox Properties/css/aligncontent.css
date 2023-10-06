@@ -1,0 +1,34 @@
+
+body {
+  padding: 200px;
+}
+
+.container div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container {
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.align-start {
+  align-content: flex-start;
+}
+
+.align-end {
+  align-content: flex-end;
+}
+
+.align-center {
+  align-content: center;
+}
+
+.align-around {
+  align-content: space-around;
+}
+
+.align-between {
+  align-content: space-between;
+}
