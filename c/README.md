@@ -15,18 +15,17 @@
 
 This folder contains the following folders:
 
-| Topics Covered |
-|----------------------|
-| **[Arrays](Arrays)** |
-| **[Binary_Tree](Binary_Tree)** | 
+| Topics Covered                           |
+| ---------------------------------------- |
+| **[Arrays](Arrays)**                     |
+| **[Binary_Tree](Binary_Tree)**           |
 | **[Bit_Manipulation](Bit_Manipulation)** |
-| **[Linked_List](Linked_List)** |
-| **[Mathematics](Mathematics)** |
-| **[Matrix](Matrix)** |
-| **[Queue](Queue)** |
-| **[Sort](Sort)** |
-| **[Stack](Stack)** |
-| **[String](String)** |
-| **[Switch_Case](Switch_Case)** |
-| **[Miscellaneous](Miscellaneous)** |
-
+| **[Linked_List](Linked_List)**           |
+| **[Mathematics](Mathematics)**           |
+| **[Matrix](Matrix)**                     |
+| **[Queue](Queue)**                       |
+| **[Sort](Sort)**                         |
+| **[Stack](Stack)**                       |
+| **[String](String)**                     |
+| **[Switch_Case](Switch_Case)**           |
+| **[Miscellaneous](Miscellaneous)**       |
